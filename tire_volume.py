@@ -14,4 +14,4 @@ with open("volumes.txt", "at") as volumes_file:
     print()
     print(f'The approximate volume of the tire is {volume:.2f} liters.')
 
-    print(f'{now:%Y-%m-%d}, {ratio}, {diameter}, {volume}', file = volumes_file)
+    print(f'{now:%Y-%m-%d}, {ratio}, {diameter}, {volume:.2f}', file = volumes_file)
