@@ -26,6 +26,8 @@ def main():
 
 # Define your functions such as
 # draw_sky and draw_ground here.
+def draw_sky(canvas, scene_width, scene_height):
+    
 
 
 
